@@ -7,6 +7,12 @@ export interface StrategyOptions {
     'User-Agent'?: string
   }
   userAgent?: string
+  scope?: string
+  prompt?: string
+  login_hint?: string
+  service_terms?: string
+  state?: string
+  nonce?: string
 }
 
 export interface Profile {

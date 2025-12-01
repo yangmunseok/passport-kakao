@@ -11,9 +11,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/rotoshine/passport-kakao.git"
+    "url": "https://github.com/yangmunseok/passport-kakao.git"
   },
-  "author": "rotoshine@gmail.com",
+  "author": "alex351700@gmail.com",
   "license": "MIT",
   "dependencies": {
     "passport-oauth2": "^1.6.1"
