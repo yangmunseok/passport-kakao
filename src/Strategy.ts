@@ -91,7 +91,7 @@ Strategy.prototype.userProfile = function (
 }
 
 /**
- * Return extra Kakao-specific parameters to be included in the authorization request
+ * Return extra Kakao-specific parameters to be included in the authorization request.<br/>
  * Check detail option from https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#request-code-request-query
  */
 Strategy.prototype.authorizationParams = function(options) {
@@ -101,19 +101,19 @@ Strategy.prototype.authorizationParams = function(options) {
     params['scope'] = options.scope
   }
   if(options.prompt) {
-    params['prompt'] = options.scope
+    params['prompt'] = options.prompt
   }
   if(options.login_hint) {
-    params['login_hint'] = options.scope
+    params['login_hint'] = options.login_hint
   }
   if(options.service_term) {
-    params['service_term'] = options.scope
+    params['service_term'] = options.service_term
   }
   if(options.state) {
-    params['state'] = options.scope
+    params['state'] = options.state
   }
   if(options.nonce) {
-    params['nonce'] = options.scope
+    params['nonce'] = options.nonce
   }
 
   return params;
